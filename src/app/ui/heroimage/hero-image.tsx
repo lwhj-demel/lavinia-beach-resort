@@ -10,8 +10,8 @@ export default function HeroImage({
     return (
         <Image
             src={path}
-            layout="fill"
             objectFit="cover"
+            layout="fill"
             quality={100}
             alt="Background image - Lavinia beach resort - Mount Lavinia"
         />

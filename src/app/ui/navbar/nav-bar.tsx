@@ -4,7 +4,7 @@ import styles from "./navbar.module.css";
 
 export default function NavBar() {
   return (
-    <nav className={styles.navbarContainer}>
+    <nav className={styles.navbarContainer} style={{ zIndex: "100" }}>
       <div className={styles.subContainerStart}>
         <NavItem text="Location" />
         <NavItem text="Explore" />
