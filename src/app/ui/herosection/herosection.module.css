@@ -1,9 +1,66 @@
-.heroImage {
-    width: 100%;
-    height: 70%;
+.sectionContainer {
+    display: flex;
+    flex-direction: column;
 }
 
-.heroDetails {
+.heroImageContainer {
     width: 100%;
-    height: 30%;
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.detailsContainer {
+    width: 100%;
+    height: 30vh;
+    display: inline-flex;
+    gap: 68px;
+    padding: 0px 68px;
+    align-items: center;
+}
+
+.endingDetailsContainer {
+    width: 50%;
+    height: 134px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonLayout {
+    width: 100%;
+    display: inline-flex;
+    gap: 10px;
+    margin-top: 16px;
+
+}
+
+.largeBoldLabel {
+    width: 50%;
+    height: 134px;
+    color: black;
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.smallLabel {
+    font-size: 16px;
+    line-height: 56px;
+}
+
+.buttonBackground {
+    border: 1px black solid;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    background: black;
+    border-radius: 4px;
+}
+
+.buttonText {
+    color: white;
+    font-size: 16;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+    background: black;
 }
