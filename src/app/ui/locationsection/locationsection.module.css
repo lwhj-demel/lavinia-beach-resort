@@ -1,0 +1,96 @@
+.sectionContainer {
+    width: 100%;
+    height: 100svh;
+}
+
+.detailsContainer {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 64px;
+    padding-right: 64px;
+    display: inline-flex;
+    gap: 5%;
+    align-items: center;
+}
+
+.locationTextContainer {
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.locationMap {
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.subDetailsContainer {
+    width: 100%;
+    height: fit-content;
+    margin-top: 40px;
+    display: inline-flex;
+    gap: 16px;
+}
+
+.subDetailsLayout {
+    display: flex;
+    flex-direction: column;
+}
+
+.smallTopLabel {
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.boldLargeLabel {
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.bodyText {
+    font-size: 18px;
+    margin-top: 16px;
+    line-height: 150%;
+}
+
+.subDetailsLabel {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.subDetailsText {
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 8px;
+}
+
+.buttonLayout {
+    width: 100%;
+    margin-top: 32px;
+    display: inline-flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.actionBackground {
+    border: 1px black solid;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    border-radius: 4px;
+}
+
+.iframeSlot {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+}

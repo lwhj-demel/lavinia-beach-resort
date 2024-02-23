@@ -5,17 +5,17 @@
 
 .heroImageContainer {
     width: 100%;
-    height: 70vh;
+    height: 70svh;
     overflow: hidden;
     position: relative;
 }
 
 .detailsContainer {
     width: 100%;
-    height: 30vh;
+    height: 30svh;
     display: inline-flex;
-    gap: 68px;
-    padding: 0px 68px;
+    gap: 72px;
+    padding: 0px 64px;
     align-items: center;
 }
 
