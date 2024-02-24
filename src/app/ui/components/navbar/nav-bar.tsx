@@ -14,7 +14,7 @@ export default function NavBar() {
           {/* <NavItem text="Enquire" /> for events */}
         </div>
         <div className={styles.subContainerEnd}>
-          <NavButton text="Button" />
+          <NavButton text="Event Enquiry" />
           <NavButton text="Contact Management" />
         </div>
       </nav>
