@@ -7,10 +7,10 @@ export default function NavBar() {
     <div className={styles.parentDiv} style={{ zIndex: "100", display: "flex", justifyContent: "center" }}>
       <nav className={styles.navbarContainer}>
         <div className={styles.subContainerStart}>
-          <NavItem text="Explore" />
-          <NavItem text="Gallery" />
+          <NavItem text="Events" />
           <NavItem text="Enquire" />
           <NavItem text="Location" />
+          <NavItem text="Gallery" />
           {/* <NavItem text="Enquire" /> for events */}
         </div>
         <div className={styles.subContainerEnd}>

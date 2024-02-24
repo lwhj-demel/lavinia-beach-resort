@@ -41,17 +41,17 @@
 /* .logo {} */
 
 .navItem {
-    color: whitesmoke;
-    font-size: 16px;
+    color: #163061;
+    font-size: 18px;
     font-family: Roboto;
-    font-weight: 400;
+    font-weight: 550;
     line-height: 24px;
     word-wrap: break-word;
 }
 
 .navButton button {
+    color: #163061;
     box-sizing: border-box;
-    color: rgb(5, 27, 46);
     background-color: whitesmoke;
     border-radius: 4px;
     height: 40px;

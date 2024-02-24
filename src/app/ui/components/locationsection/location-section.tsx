@@ -1,4 +1,12 @@
+"use client";
 import styles from "./locationsection.module.css"
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { EffectCube, Pagination, Autoplay } from 'swiper/modules';
+import { useRef, useEffect } from "react";
+
+import 'swiper/css';
+import 'swiper/css/effect-cube';
+import 'swiper/css/pagination';
 
 export default function LocationSection() {
     return (
@@ -25,7 +33,33 @@ export default function LocationSection() {
                         </div>
                     </div>
                     <div className={styles.locationMap}>
-                        <div className={styles.iframeSlot}><iframe width="100%" height="100%" src="https://maps.google.com/maps?width=100%25&amp;height=100%25&amp;hl=en&amp;q=6.841427949564448,%2079.8627680540085+(Lavinia%20Beach%20Resort)&amp;t=k&amp;z=19&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps systems</a></iframe></div>
+                        <Swiper
+                            effect={'cube'}
+                            loop={true}
+                            autoplay={{
+                                delay: 5000,
+                                disableOnInteraction: false,
+                                pauseOnMouseEnter: true,
+                                waitForTransition: false
+                            }}
+                            grabCursor={true}
+                            cubeEffect={{
+                                shadow: true,
+                                slideShadows: true,
+                                shadowOffset: 48,
+                                shadowScale: 0.8
+                            }}
+                            modules={[EffectCube, Autoplay]}
+                            className="locationSwiper"
+                            style={{ boxSizing: "border-box", width: "100%", height: "100%", borderRadius: "20px" }}
+                        >
+                            <SwiperSlide>
+                                <div className={styles.iframeSlot}><iframe width="100%" height="100%" src="https://maps.google.com/maps?width=100%25&amp;height=100%25&amp;hl=en&amp;q=6.841427949564448,%2079.8627680540085+(Lavinia%20Beach%20Resort)&amp;t=k&amp;z=19&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps systems</a></iframe></div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className={styles.iframeSlot}><iframe width="100%" height="100%" src="https://maps.google.com/maps?width=100%25&amp;height=100%25&amp;hl=en&amp;q=6.841427949564448,%2079.8627680540085+(Lavinia%20Beach%20Resort)&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps systems</a></iframe></div>
+                            </SwiperSlide>
+                        </Swiper>
                     </div>
                 </div>
             </div>

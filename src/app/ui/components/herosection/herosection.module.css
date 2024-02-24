@@ -37,7 +37,6 @@
 .largeBoldLabel {
     width: 50%;
     height: 134px;
-    color: black;
     font-size: 56px;
     font-weight: 600;
 }
@@ -52,7 +51,7 @@
     justify-content: center;
     align-items: center;
     padding: 12px 24px;
-    background: black;
+    background: #22437f;
     border-radius: 4px;
 }
 
@@ -62,5 +61,5 @@
     font-family: Roboto;
     font-weight: 400;
     word-wrap: break-word;
-    background: black;
+    background: #22437f;
 }

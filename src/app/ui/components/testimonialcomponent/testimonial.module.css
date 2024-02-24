@@ -1,0 +1,31 @@
+.testimonialBody {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.testimonialCredentials {
+    height: max-content;
+    margin-top: 48px;
+    display: inline-flex;
+    gap: 8px;
+}
+
+.patronEmoji {
+    font-size: 32px;
+}
+
+.patronDetailsLayout {
+    display: flex;
+    flex-direction: column;
+}
+
+.patronName {
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.patronOtherDetails {
+    margin-top: 4px;
+    font-size: 16px;
+}

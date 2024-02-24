@@ -1,5 +1,10 @@
 import CubeSide from "./cube-side";
 import styles from "./turningcube.module.css"
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { EffectCards, Autoplay } from 'swiper/modules';
+
+import 'swiper/css';
+import 'swiper/css/effect-cards';
 
 const eventCards: EventCardData[] = [
     {
@@ -36,15 +41,34 @@ const eventCards: EventCardData[] = [
 
 
 export default function TurningCube() {
+
     return (
         <>
-            <div className={styles.turningCubeContainer}>
-                {eventCards.map((card) => (
-                    <div key={card.heading} className="swiper-slide" style={{ height: "100%" }}>
-                        <CubeSide
-                            imageUrl={card.imageUrl} heading={card.heading} paragraph={card.paragraph} eventNumberLabel={card.eventNumberLabel} />
+            <div className={styles.turningCubeContainer} >
+                <Swiper
+                    effect={'cards'}
+                    loop={true}
+                    autoplay={{
+                        delay: 5000,
+                        disableOnInteraction: false,
+                        pauseOnMouseEnter: true
+                    }}
+                    grabCursor={true}
+                    modules={[EffectCards, Autoplay]}
+                    className="mySwiper"
+                    style={{ width: "100%", height: "100%", borderRadius: "20px" }}
+                >
+                    <div className="swiper-wrapper" style={{ width: "100%", height: "100%", borderRadius: "20px" }}>
+                        {eventCards.map((card) => (
+                            <SwiperSlide style={{ borderRadius: "20px" }}>
+                                <div key={card.heading} style={{ width: "100%", height: "100%", borderRadius: "20px" }}>
+                                    <CubeSide
+                                        imageUrl={card.imageUrl} heading={card.heading} paragraph={card.paragraph} eventNumberLabel={card.eventNumberLabel} />
+                                </div>
+                            </SwiperSlide>
+                        ))}
                     </div>
-                ))}
+                </Swiper>
             </div>
         </>
     );
