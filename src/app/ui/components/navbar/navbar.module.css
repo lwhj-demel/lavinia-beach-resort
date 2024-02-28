@@ -41,7 +41,7 @@
 /* .logo {} */
 
 .navItem {
-    color: #163061;
+    color: whitesmoke;
     font-size: 18px;
     font-family: Roboto;
     font-weight: 550;
@@ -65,6 +65,6 @@
 }
 
 /* misc values
-
+color: #163061;
 background-color: rgb(5, 27, 46);
 */

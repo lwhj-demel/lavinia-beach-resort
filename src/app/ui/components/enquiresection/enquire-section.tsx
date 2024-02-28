@@ -37,16 +37,24 @@ export default function EnquireSection() {
                         <p>Send us a message and we will get back to you asap.</p>
                         <form ref={formRef} className={styles.enquireForm} name="gform" id="gform" encType="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfvrTUGA6SuE44U4OxA8WtJ734qxJleqLmUyg3SnA2dysZhtg/formResponse?" target="hidden_iframe" onSubmit={() => delayedToggleFunc()}>
                             <fieldset className={styles.formFieldSet}>
-                                <label className={styles.inputLabel}>Name</label>
-                                <input className={styles.inputElement} id="entry.2005620554" name="entry.2005620554" type="text" required />
-                                <label className={styles.inputLabel}>Phone number</label>
-                                <input className={styles.inputElement} id="entry.1045781291" name="entry.1045781291" type="tel" required />
+                                <div className={styles.enquireNameAndPhoneLayout}>
+                                    <div className={styles.enquireNameAndPhoneLayoutElements}>
+                                        <label className={styles.inputLabel}>Name</label>
+                                        <input className={styles.inputElementNamePhone} id="entry.2005620554" name="entry.2005620554" type="text" required />
+                                    </div>
+                                    <div className={styles.enquireNameAndPhoneLayoutElements}>
+                                        <label className={styles.inputLabel}>Phone number</label>
+                                        <input className={styles.inputElementNamePhone} id="entry.1045781291" name="entry.1045781291" type="tel" required />
+                                    </div>
+                                </div>
+
+
                                 <label className={styles.inputLabel}>Email</label>
                                 <input className={styles.inputElement} id="entry.1065046570" name="entry.1065046570" type="email" required />
                                 <label className={styles.inputLabel}>Message</label>
                                 <textarea className={styles.inputTextArea} id="entry.1166974658" name="entry.1166974658" rows={8} cols={30} placeholder="Add a message here..."></textarea>
                             </fieldset>
-                            <input className={styles.submitButton} type="submit" value="Submit" />
+                            <input className={styles.submitButton} type="submit" value="Send message" />
                         </form>
                         <iframe name="hidden_iframe" id="hidden_iframe" style={{ display: "none" }} onLoad={() => { if (submitted) { } }}></iframe>
                     </>
