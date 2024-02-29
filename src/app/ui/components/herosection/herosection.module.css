@@ -39,6 +39,7 @@
     height: 134px;
     font-size: 56px;
     font-weight: 600;
+    font-family: var(--font-main);
 }
 
 .smallLabel {
@@ -58,7 +59,7 @@
 .buttonText {
     color: white;
     font-size: 16;
-    font-family: Roboto;
+    font-family: var(--font-body);
     font-weight: 400;
     word-wrap: break-word;
     background: #22437f;

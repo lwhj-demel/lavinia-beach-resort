@@ -8,6 +8,7 @@
     font-size: 48px;
     font-weight: 600;
     margin-bottom: 16px;
+    font-family: var(--font-main);
 }
 
 .bodyText {

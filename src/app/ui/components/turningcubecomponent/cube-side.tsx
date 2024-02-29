@@ -12,7 +12,7 @@ export default function CubeSide({
             <div className={styles.cubeSideContainer}>
                 <img className={styles.backgroundImage} src={imageUrl} />
                 <div className={styles.overlay}>
-                    <h1>{heading}</h1>
+                    <h3>{heading}</h3>
                     <p>
                         {paragraph}
                     </p>

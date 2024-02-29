@@ -1,9 +1,24 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { IM_Fell_English, La_Belle_Aurore, Sorts_Mill_Goudy } from "next/font/google";
 import "./globals.css";
-import NavBar from "./ui/components/navbar/nav-bar";
 
-const inter = Inter({ subsets: ["latin"] });
+const mainFont = IM_Fell_English({
+  weight: ['400'],
+  subsets: ["latin"],
+  variable: '--font-main',
+})
+
+const accentFont = La_Belle_Aurore({
+  weight: ['400'],
+  subsets: ["latin"],
+  variable: '--font-accent',
+})
+
+const bodyFont = Sorts_Mill_Goudy({
+  weight: ['400'],
+  subsets: ["latin", "latin-ext"],
+  variable: '--font-body',
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,7 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" style={{ background: 'white' }}>
-      <body className={inter.className}>{children}</body>
+      <body className={`${mainFont.variable} ${bodyFont.variable} ${accentFont.variable}`}>{children}</body>
     </html>
   );
 }

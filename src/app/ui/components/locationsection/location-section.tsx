@@ -29,7 +29,7 @@ export default function LocationSection() {
                         </div>
                         <div className={styles.buttonLayout}>
                             <a className={styles.actionBackground} href="https://www.google.com/maps/dir//6.8414279,79.8627681/@6.8414279,79.8627681,19z?entry=ttu" target="_blank">Navigate 📍</a>
-                            <p>Visit the 'Golden Mile' of Mt. Lavinia</p>
+                            <p className={styles.travelText}>Visit the 'Golden Mile' of Mt. Lavinia</p>
                         </div>
                     </div>
                     <div className={styles.locationMap}>

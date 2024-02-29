@@ -47,12 +47,14 @@
 .smallTopLabel {
     font-size: 16px;
     font-weight: 550;
+    font-family: var(--font-main);
 }
 
 .boldLargeLabel {
     font-size: 48px;
     font-weight: 600;
     margin-top: 16px;
+    font-family: var(--font-main);
 }
 
 .bodyText {
@@ -72,6 +74,10 @@
     margin-top: 8px;
 }
 
+.travelText {
+    font-family: var(--font-accent);
+}
+
 .buttonLayout {
     width: 100%;
     margin-top: 32px;
@@ -86,6 +92,7 @@
     align-items: center;
     padding: 12px 24px;
     border-radius: 4px;
+    font-family: var(--font-body);
 }
 
 .iframeSlot {

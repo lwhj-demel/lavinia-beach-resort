@@ -60,7 +60,7 @@
     cursor: pointer;
     color: whitesmoke;
     font-size: 18px;
-    font-family: Roboto;
+    font-family: var(--font-main);
     font-weight: 550;
     line-height: 24px;
     word-wrap: break-word;
@@ -75,7 +75,7 @@
     height: 40px;
     padding: 8px 20px;
     font-size: 16px;
-    font-family: Roboto;
+    font-family: var(--font-body);
     font-weight: 400;
     text-align: center;
     word-wrap: break-word;

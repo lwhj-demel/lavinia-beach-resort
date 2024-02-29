@@ -13,6 +13,8 @@ export default function EnquireSection() {
         setButtonText("Processing")
         setTimeout(() => {
             setSubmitted(true);
+            const element = document.getElementById("enquire-section");
+            element?.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
         }, 4000);
     }
 
