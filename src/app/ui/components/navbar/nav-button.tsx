@@ -1,13 +1,15 @@
 import styles from "./navbar.module.css";
+import { MouseEventHandler } from 'react';
 
 export default function NavButton({
-    text
+    text, clickFunc
 }: {
     text: string;
+    clickFunc: MouseEventHandler;
 }) {
     return (
         <div className={styles.navButton}>
-            <button>{text}</button>
+            <button onClick={clickFunc}>{text}</button>
         </div>
     );
 }

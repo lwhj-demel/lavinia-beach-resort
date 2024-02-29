@@ -4,6 +4,7 @@ import NavBar from "./ui/components/navbar/nav-bar";
 import LocationSection from "./ui/components/locationsection/location-section";
 import ExploreSection from "./ui/components/exploresection/explore-section";
 import EnquireSection from "./ui/components/enquiresection/enquire-section";
+import GallerySection from "./ui/components/gallerysection/gallery-section";
 
 
 export default function Home() {
@@ -22,6 +23,9 @@ export default function Home() {
         </section>
         <section id="location-section" className="section">
           <LocationSection />
+        </section>
+        <section id="gallery-section" className="section">
+          <GallerySection />
         </section>
       </main>
     </>

@@ -1,12 +1,16 @@
 "use client";
 import styles from "./enquiresection.module.css"
-import { useRef, useEffect, useState } from 'react';
+import { useRef, useEffect, useState, ReactDOM } from 'react';
 
 export default function EnquireSection() {
     const [submitted, setSubmitted] = useState(false);
     const formRef = useRef<HTMLFormElement>(null);
+    const [buttonText, setButtonText] = useState("Send message");
+    const [cursor, setCursor] = useState('pointer');
 
     const delayedToggleFunc = () => {
+        setCursor('progress')
+        setButtonText("Processing")
         setTimeout(() => {
             setSubmitted(true);
         }, 4000);
@@ -54,7 +58,7 @@ export default function EnquireSection() {
                                 <label className={styles.inputLabel}>Message</label>
                                 <textarea className={styles.inputTextArea} id="entry.1166974658" name="entry.1166974658" rows={8} cols={30} placeholder="Add a message here..."></textarea>
                             </fieldset>
-                            <input className={styles.submitButton} type="submit" value="Send message" />
+                            <input className={styles.submitButton} style={{ cursor: cursor }} type="submit" value={buttonText} />
                         </form>
                         <iframe name="hidden_iframe" id="hidden_iframe" style={{ display: "none" }} onLoad={() => { if (submitted) { } }}></iframe>
                     </>

@@ -9,15 +9,12 @@ export default function HeroSection() {
                     <HeroImage path="/Images/lbr.png" />
                 </div>
                 <div className={styles.detailsContainer}>
-                    <p className={styles.largeBoldLabel}>Experience beachside dining at its finest</p>
+                    <h2 className={styles.largeBoldLabel}>Experience beachside dining at its finest</h2>
                     <div className={styles.endingDetailsContainer}>
                         <p className={styles.smallLabel}>Indulge in delicious food while enjoying breathtaking views of the ocean.</p>
                         <div className={styles.buttonLayout}>
                             <div className={styles.buttonBackground}>
-                                <p className={styles.buttonText}>Explore</p>
-                            </div>
-                            <div className={styles.buttonBackground}>
-                                <p className={styles.buttonText}>Contact Management</p>
+                                <a className={styles.buttonText} href="#explore-section">Explore</a>
                             </div>
                         </div>
                     </div>

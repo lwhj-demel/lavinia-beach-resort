@@ -15,7 +15,7 @@ export default function LocationSection() {
                 <div className={styles.detailsContainer}>
                     <div className={styles.locationTextContainer}>
                         <p className={styles.smallTopLabel}>Unforgettable</p>
-                        <p className={styles.boldLargeLabel}>Dine in Paradise, Right by the Beach</p>
+                        <h2 className={styles.boldLargeLabel}>Dine in Paradise, Right by the Beach</h2>
                         <p className={styles.bodyText}>Experience the unique pleasure of dining right next to the beach at our beachside restaurant. Enjoy the soothing sound of waves and the breathtaking view while savoring our delicious dishes made with the freshest ingredients.</p>
                         <div className={styles.subDetailsContainer}>
                             <div className={styles.subDetails}>
@@ -28,7 +28,7 @@ export default function LocationSection() {
                             </div>
                         </div>
                         <div className={styles.buttonLayout}>
-                            <p className={styles.actionBackground}>Navigate 📍</p>
+                            <a className={styles.actionBackground} href="https://www.google.com/maps/dir//6.8414279,79.8627681/@6.8414279,79.8627681,19z?entry=ttu" target="_blank">Navigate 📍</a>
                             <p>Visit the 'Golden Mile' of Mt. Lavinia</p>
                         </div>
                     </div>
