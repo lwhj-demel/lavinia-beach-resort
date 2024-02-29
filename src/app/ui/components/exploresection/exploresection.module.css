@@ -28,13 +28,13 @@
 }
 
 .testimonialHeading h2 {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 600;
     font-family: var(--font-main);
 }
 
 .subHeading {
-    font-size: 16px;
+    font-size: 1rem;
     margin-top: 8px;
     font-family: var(--font-body);
 }

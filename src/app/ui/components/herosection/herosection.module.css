@@ -37,13 +37,13 @@
 .largeBoldLabel {
     width: 50%;
     height: 134px;
-    font-size: 56px;
+    font-size: 3.5rem;
     font-weight: 600;
     font-family: var(--font-main);
 }
 
 .smallLabel {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 56px;
 }
 
@@ -58,7 +58,7 @@
 
 .buttonText {
     color: white;
-    font-size: 16;
+    font-size: 1rem;
     font-family: var(--font-body);
     font-weight: 400;
     word-wrap: break-word;

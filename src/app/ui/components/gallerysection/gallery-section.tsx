@@ -34,28 +34,34 @@ export default function GallerySection() {
                         className="mySwiper"
                     >
                         <SwiperSlide className={styles.imageContainer}>
-                            <img className={styles.imageElement} src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                            <img className={styles.imageElement} src="/Images/gallery/image-1.webp" />
                         </SwiperSlide>
                         <SwiperSlide className={styles.imageContainer}>
-                            <img className={styles.imageElement} src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                            <img className={styles.imageElement} src="/Images/gallery/image-2.webp" />
                         </SwiperSlide>
                         <SwiperSlide className={styles.imageContainer}>
-                            <img className={styles.imageElement} src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                            <img className={styles.imageElement} src="/Images/gallery/image-3.webp" />
                         </SwiperSlide>
                         <SwiperSlide className={styles.imageContainer}>
-                            <img className={styles.imageElement} src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                            <img className={styles.imageElement} src="/Images/gallery/image-4.webp" />
                         </SwiperSlide>
                         <SwiperSlide className={styles.imageContainer}>
-                            <img className={styles.imageElement} src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                            <img className={styles.imageElement} src="/Images/gallery/image-5.webp" />
                         </SwiperSlide>
                         <SwiperSlide className={styles.imageContainer}>
-                            <img className={styles.imageElement} src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                            <img className={styles.imageElement} src="/Images/gallery/image-6.webp" />
                         </SwiperSlide>
                         <SwiperSlide className={styles.imageContainer}>
-                            <img className={styles.imageElement} src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                            <img className={styles.imageElement} src="/Images/gallery/image-7.webp" />
                         </SwiperSlide>
                         <SwiperSlide className={styles.imageContainer}>
-                            <img className={styles.imageElement} src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                            <img className={styles.imageElement} src="/Images/gallery/image-8.webp" />
+                        </SwiperSlide>
+                        <SwiperSlide className={styles.imageContainer}>
+                            <img className={styles.imageElement} src="/Images/gallery/image-5.webp" />
+                        </SwiperSlide>
+                        <SwiperSlide className={styles.imageContainer}>
+                            <img className={styles.imageElement} src="/Images/gallery/image-10.webp" />
                         </SwiperSlide>
                     </Swiper>
                 </div>

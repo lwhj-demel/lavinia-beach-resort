@@ -45,31 +45,31 @@
 }
 
 .smallTopLabel {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 550;
     font-family: var(--font-main);
 }
 
 .boldLargeLabel {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 600;
     margin-top: 16px;
     font-family: var(--font-main);
 }
 
 .bodyText {
-    font-size: 18px;
+    font-size: 1rem;
     margin-top: 16px;
     line-height: 150%;
 }
 
 .subDetailsLabel {
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 600;
 }
 
 .subDetailsText {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 150%;
     margin-top: 8px;
 }

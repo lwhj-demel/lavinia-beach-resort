@@ -31,7 +31,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" style={{ background: 'white' }}>
+    <html lang="en" style={{ background: 'white', fontSize: "1rem" }}>
+      <head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lavinia Beach Resort</title>
+      </head>
       <body className={`${mainFont.variable} ${bodyFont.variable} ${accentFont.variable}`}>{children}</body>
     </html>
   );
