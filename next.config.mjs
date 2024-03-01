@@ -1,9 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    // basePath: '/lavinia_beach_resort',
     output: 'export',
-    images: {
-        unoptimized: true
-    }
 };
 
 export default nextConfig;
