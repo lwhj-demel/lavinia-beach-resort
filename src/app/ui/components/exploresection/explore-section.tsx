@@ -75,8 +75,8 @@ export default function ExploreSection() {
                             style={{ width: "100%" }}
                         >
                             {testimonials.map((testimonial) => (
-                                <SwiperSlide >
-                                    <div key={testimonial.eventType} >
+                                <SwiperSlide key={testimonial.eventType}>
+                                    <div  >
                                         <Testimonial eventType={testimonial.eventType} message={testimonial.message} emoji={testimonial.emoji} patronName={testimonial.patronName} otherDetails={testimonial.otherDetails} />
                                     </div>
                                 </SwiperSlide>

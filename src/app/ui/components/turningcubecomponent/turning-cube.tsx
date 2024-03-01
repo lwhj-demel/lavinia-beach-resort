@@ -60,8 +60,8 @@ export default function TurningCube() {
                 >
                     <div className="swiper-wrapper" style={{ width: "100%", height: "100%", borderRadius: "20px" }}>
                         {eventCards.map((card) => (
-                            <SwiperSlide style={{ borderRadius: "20px" }}>
-                                <div key={card.heading} style={{ width: "100%", height: "100%", borderRadius: "20px" }}>
+                            <SwiperSlide key={card.heading} style={{ borderRadius: "20px" }}>
+                                <div style={{ width: "100%", height: "100%", borderRadius: "20px" }}>
                                     <CubeSide
                                         imageUrl={card.imageUrl} heading={card.heading} paragraph={card.paragraph} eventNumberLabel={card.eventNumberLabel} />
                                 </div>
