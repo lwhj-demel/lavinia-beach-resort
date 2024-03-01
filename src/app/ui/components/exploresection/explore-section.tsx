@@ -12,7 +12,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 const testimonials: TestimonialData[] = [
     {
         eventType: "wedding",
-        message: "\" My husband and I had the most magical wedding at Lavinia Beach Resort in 2017. The beachfront setting was absolutely stunning, and the staff went above and beyond to make our day perfect. The food was delicious, the décor was beautiful, and everything ran smoothly from start to finish. We couldn't have asked for a better experience. We are forever grateful to Harendra De Mel and the team for making our dream wedding a reality! \"",
+        message: "\"My husband and I had the most magical wedding at Lavinia Beach Resort in 2017. The beachfront setting was absolutely stunning, and the staff went above and beyond to make our day perfect. The food was delicious, the décor was beautiful, and everything ran smoothly from start to finish. We couldn't have asked for a better experience. We are forever grateful to Harendra De Mel and the team for making our dream wedding a reality!\"",
         emoji: "☞",
         patronName: "Claudia Silva",
         otherDetails: "Nurse, Cabrini - Australia (Wedding, August 2017)"
