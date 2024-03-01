@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: '/lavinia_beach_resort',
+    basePath: '/lavinia-beach-resort',
     output: 'export',
 };
 
