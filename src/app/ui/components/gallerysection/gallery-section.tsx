@@ -34,28 +34,28 @@ export default function GallerySection() {
                         className="mySwiper"
                     >
                         <SwiperSlide className={styles.imageContainer}>
-                            <img className={styles.imageElement} src="/Images/gallery/image-1.webp" />
+                            <img className={styles.imageElement} src="./Images/gallery/image-1.webp" />
                         </SwiperSlide>
                         <SwiperSlide className={styles.imageContainer}>
-                            <img className={styles.imageElement} src="/Images/gallery/image-2.webp" />
+                            <img className={styles.imageElement} src="./Images/gallery/image-2.webp" />
                         </SwiperSlide>
                         <SwiperSlide className={styles.imageContainer}>
-                            <img className={styles.imageElement} src="/Images/gallery/image-3.webp" />
+                            <img className={styles.imageElement} src="./Images/gallery/image-3.webp" />
                         </SwiperSlide>
                         <SwiperSlide className={styles.imageContainer}>
-                            <img className={styles.imageElement} src="/Images/gallery/image-4.webp" />
+                            <img className={styles.imageElement} src="./Images/gallery/image-4.webp" />
                         </SwiperSlide>
                         <SwiperSlide className={styles.imageContainer}>
-                            <img className={styles.imageElement} src="/Images/gallery/image-5.webp" />
+                            <img className={styles.imageElement} src="./Images/gallery/image-5.webp" />
                         </SwiperSlide>
                         <SwiperSlide className={styles.imageContainer}>
-                            <img className={styles.imageElement} src="/Images/gallery/image-6.webp" />
+                            <img className={styles.imageElement} src="./Images/gallery/image-6.webp" />
                         </SwiperSlide>
                         <SwiperSlide className={styles.imageContainer}>
-                            <img className={styles.imageElement} src="/Images/gallery/image-7.webp" />
+                            <img className={styles.imageElement} src="./Images/gallery/image-7.webp" />
                         </SwiperSlide>
                         <SwiperSlide className={styles.imageContainer}>
-                            <img className={styles.imageElement} src="/Images/gallery/image-8.webp" />
+                            <img className={styles.imageElement} src="./Images/gallery/image-8.webp" />
                         </SwiperSlide>
                         <SwiperSlide className={styles.imageContainer}>
                             <img className={styles.imageElement} src="/Images/gallery/image-5.webp" />

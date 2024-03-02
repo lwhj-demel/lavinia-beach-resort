@@ -6,7 +6,7 @@ export default function HeroSection() {
         <>
             <div className={styles.sectionContainer}>
                 <div className={styles.heroImageContainer}>
-                    <HeroImage path="/Images/lbr-hero.webp" />
+                    <HeroImage path="./Images/lbr-hero.webp" />
                 </div>
                 <div className={styles.detailsContainer}>
                     <h2 className={styles.largeBoldLabel}>Experience beachside dining at its finest</h2>

@@ -14,7 +14,7 @@ export default function NavBar() {
       <nav className={styles.navbarContainer}>
         <div className={styles.subContainerStart}>
           <div className={styles.navLogoContainer}>
-            <img className={styles.navLogo} src="/Images/lbr-logo.png" onClick={() => scrollToHash("hero-section")} />
+            <img className={styles.navLogo} src="./Images/lbr-logo.png" onClick={() => scrollToHash("hero-section")} />
           </div>
           <NavItem text="Events" clickFunc={() => scrollToHash("explore-section")} />
           <NavItem text="Enquire" clickFunc={() => scrollToHash("enquire-section")} />
