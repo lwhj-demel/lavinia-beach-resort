@@ -58,10 +58,10 @@ export default function GallerySection() {
                             <img className={styles.imageElement} src="./Images/gallery/image-8.webp" />
                         </SwiperSlide>
                         <SwiperSlide className={styles.imageContainer}>
-                            <img className={styles.imageElement} src="/Images/gallery/image-5.webp" />
+                            <img className={styles.imageElement} src="./Images/gallery/image-5.webp" />
                         </SwiperSlide>
                         <SwiperSlide className={styles.imageContainer}>
-                            <img className={styles.imageElement} src="/Images/gallery/image-10.webp" />
+                            <img className={styles.imageElement} src="./Images/gallery/image-10.webp" />
                         </SwiperSlide>
                     </Swiper>
                 </div>
