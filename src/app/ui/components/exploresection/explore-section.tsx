@@ -3,7 +3,7 @@ import styles from "./exploresection.module.css"
 import 'swiper/css';
 import 'swiper/css/effect-fade';
 
-import TurningCube from "../turningcubecomponent/turning-cube";
+import EventSwipeCards from "../turningcubecomponent/event-swipe-cards";
 import Testimonial from "../testimonialcomponent/testimonial-component";
 import { EffectFade, Autoplay } from 'swiper/modules';
 import React, { useRef, useState } from 'react';
@@ -53,7 +53,7 @@ export default function ExploreSection() {
             <div className={styles.sectionContainer}>
                 <div className={styles.detailsContainer}>
                     <div className={styles.turningCube}>
-                        <TurningCube />
+                        <EventSwipeCards />
                     </div>
                     <div className={styles.testimonialContainer}>
                         <h2 className={styles.testimonialHeading}>Customer Testimonials</h2>

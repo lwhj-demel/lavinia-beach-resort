@@ -1,5 +1,5 @@
-import CubeSide from "./cube-side";
-import styles from "./turningcube.module.css"
+import CubeSide from "./event-card";
+import styles from "./eventswipecards.module.css"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCards, Autoplay } from 'swiper/modules';
 
@@ -40,7 +40,7 @@ const eventCards: EventCardData[] = [
 ];
 
 
-export default function TurningCube() {
+export default function EventSwipeCards() {
 
     return (
         <>

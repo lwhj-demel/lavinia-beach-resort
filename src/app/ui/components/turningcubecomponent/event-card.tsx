@@ -1,4 +1,4 @@
-import styles from "./cubeside.module.css"
+import styles from "./eventcard.module.css"
 export default function CubeSide({
     imageUrl, heading, paragraph, eventNumberLabel
 }: {
